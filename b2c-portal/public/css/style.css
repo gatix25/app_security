@@ -1,0 +1,211 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  background-color: #fff;
+  color: #333;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.logo img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+  background-color: #2B84B2;
+  color: white;
+}
+
+.content {
+  margin-left: 240px; 
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding: 32px;
+  height: 100%;
+  overflow: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.logout-form, .back {
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.logout-form .btn, .back:hover {
+  background-color: #007bff;
+}
+
+.back:hover, .logout:hover {
+  background-color: #0056b3;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.content-section {
+  display: none;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.content-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li::before {
+  content: "•";
+  color: transparent; 
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.btn {
+  border: 0px solid rgb(138, 135, 135);
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.logout, .back {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.btn login {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.activity {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.activity:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.logout:hover, .back:hover {
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.login, .register  {
+  margin: 10px;
+  margin-left: 10px;
+}
+
+.form-group {
+  margin: 10px;
+  margin-left: 10px;
+}
+
+.register-link a:hover {
+  color: #007bff;
+}
